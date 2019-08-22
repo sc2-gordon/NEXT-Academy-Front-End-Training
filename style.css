@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    padding-top: 0.7em;
+    border-radius: 50%;
+}
+
+header {
+    padding-bottom: 1.2em;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.5), rgb(255,255,255,0.7)), url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Black_pond_near_Esher.jpeg/1200px-Black_pond_near_Esher.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 4px 4px 4px #808080;
+}
+
+#quote {
+    font-size: 24px;
+}
+
+.intro {
+    font-size: 30px;
+    width: 800px;
+    display: inline-block;
+}
+
+    .intro li {
+        list-style: none;
+        padding: 8px 0px;
+    }
+
+    .intro li:hover {
+        transition-delay: 30ms;
+        font-size: 110%;
+        color: #808080;
+    }
+
+hr {
+    color: #000000;
+    background-color: #000000;
+    height: 4px;
+}
+
+.basic {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding: 15px 50px;
+    margin: 4px;
+    border: 2px solid #000000;
+    border-radius: 10%;
+    box-sizing: border-box; 
+    vertical-align: top;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.advanced {
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding: 15px 50px;
+    margin: 4px;
+    border: 2px solid #000000;
+    border-radius: 10%;
+    box-sizing: border-box; 
+    vertical-align: top;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+button {
+    margin: 25px;
+    border-radius: 50%;
+}

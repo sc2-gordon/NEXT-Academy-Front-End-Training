@@ -1,0 +1,28 @@
+.my_bg {
+    background: #e9ecef;
+
+}
+
+.img_align {
+    display: flex;
+    justify-content: center;
+}
+
+.resizing {
+    width: 285px;
+    height: 200px;
+}
+
+.my_text {
+    display: flex;
+    justify-content: center;
+}
+
+.my_align {
+    height: 200px;
+}
+
+#about_image {
+    height: 700px;
+    width: 800px;
+}

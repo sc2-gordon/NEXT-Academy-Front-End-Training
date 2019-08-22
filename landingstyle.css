@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    color: #49505D;
+}
+
+header {
+    padding-top: 10px;
+    margin-bottom: 25px;
+    margin-right: 60px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    position: relative;
+}
+
+.left {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 300px;
+    padding-left: 200px;
+    text-align: left;
+}
+
+#tagline {
+    font-size: 48px;
+    line-height: 55px;
+}
+
+#p {
+    font-size: 20px;
+    line-height: 35px;
+    padding-right: 100px;
+}
+
+#email {
+    text-indent: 25px;
+    width: 225px;
+    height: 30px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #49505D;
+}
+
+button {
+    width: 225px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: #2F3239;
+}
+
+    button:hover {
+        color: #2F3239;
+        background-color: #ffffff;
+        border: solid #2F3239;
+    }
+
+    button:active {
+        box-shadow: 0 3px #666;
+        transform: translateY(4px);
+    }
+
+ul {
+    list-style: none;
+    width: 225px;
+    padding: 0;
+    padding-right: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imag {
+    width: 1000px;
+    height: 800px;
+    margin-right: 60px;
+}
+
+#chat {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 85%;
+    left: 94.5%;
+}
+
+footer {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    margin-right: 35px;
+    line-height: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    border: 1px solid #2F3239;
+    width: 20px;
+    height: 0;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.initial1 {
+    display: flex;
+    align-content: flex-start;
+    width: 100px;
+}
+
+.initial {
+    display: flex;
+    align-content: flex-start;
+    width: 120px;
+}
+
+.latter {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 200px;
+}
+
+.margin {
+    margin: 5px;
+}
+
+.final {
+    display: flex;
+}
